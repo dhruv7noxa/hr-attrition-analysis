@@ -1,0 +1,46 @@
+HR Attrition Prediction Project: Report Summary
+
+
+Project Objective
+
+To analyze HR data, identify the main drivers of employee attrition, and predict which employees are most at risk of leaving the company.
+
+Approach
+Loaded and cleaned the HR dataset (1,470 employees, 45 features after processing).
+
+Encoded all categorical variables for machine learning compatibility.
+
+Split data into train/test sets and scaled features for optimal modeling.
+
+Builted a Logistic Regression classifier to predict attrition status.
+
+Model Results =>
+Accuracy: 86.05% on the test set.
+
+Recall (leaving employees): 0.34 — model identifies some employees likely to leave, but as is normal with imbalanced data, not all.
+
+Majority of predictions are correct for employees who stay (class 0).
+
+Key Insights (Feature Importance)
+The top drivers of employee attrition (leaving), according to model coefficients:
+
+Feature	Impact on Attrition
+OverTime	                           Increases attrition risk
+BusinessTravel_Travel_Frequently	   Increases attrition risk
+JobRole_Laboratory Technician	           Increases attrition risk
+TotalWorkingYears	                   Reduces attrition (more years = safer)
+YearsSinceLastPromotion	                   Increases attrition risk
+NumCompaniesWorked	                   Increases attrition risk
+EnvironmentSatisfaction	                   Reduces attrition (greater satisfaction = safer)
+JobRole_Sales Representative	           Increases attrition risk
+BusinessTravel_Travel_Rarely	           Increases attrition risk (less so)
+JobSatisfaction	                           Reduces attrition
+
+Interpretation: Employees who work overtime, travel frequently, have not been promoted recently, or report low satisfaction are at much higher risk of leaving.
+
+Recommendations
+Monitor and proactively engage employees with high overtime, low satisfaction, or many years since last promotion.
+
+Support roles and departments identified with greater risk (Lab Techs, Sales Reps).
+
+Consider reward/recognition or balanced travel/promotion opportunities.
