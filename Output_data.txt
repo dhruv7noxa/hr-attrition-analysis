@@ -1,0 +1,943 @@
+ 
+   Age Attrition     BusinessTravel  ...  YearsInCurrentRole YearsSinceLastPromotion  YearsWithCurrManager
+0   41       Yes      Travel_Rarely  ...                   4                       0                     5
+1   49        No  Travel_Frequently  ...                   7                       1                     7
+2   37       Yes      Travel_Rarely  ...                   0                       0                     0
+3   33        No  Travel_Frequently  ...                   7                       3                     0
+4   27        No      Travel_Rarely  ...                   2                       2                     2
+
+[5 rows x 35 columns]
+
+**********************************************************************************************************************************************************
+ 
+   Age Attrition     BusinessTravel  ...  YearsInCurrentRole YearsSinceLastPromotion  YearsWithCurrManager
+0   41       Yes      Travel_Rarely  ...                   4                       0                     5
+1   49        No  Travel_Frequently  ...                   7                       1                     7
+2   37       Yes      Travel_Rarely  ...                   0                       0                     0
+3   33        No  Travel_Frequently  ...                   7                       3                     0
+4   27        No      Travel_Rarely  ...                   2                       2                     2
+
+[5 rows x 35 columns]
+
+Dataset shape: (1470, 35)
+
+*********************************************************************************************************************************************************
+
+Columns in dataset:
+ ['Age', 'Attrition', 'BusinessTravel', 'DailyRate', 'Department', 'DistanceFromHome', 'Education', 'EducationField', 'EmployeeCount', 'EmployeeNumber', 'EnvironmentSatisfaction', 'Gender', 'HourlyRate', 'JobInvolvement', 'JobLevel', 'JobRole', 'JobSatisfaction', 'MaritalStatus', 'MonthlyIncome', 'MonthlyRate', 'NumCompaniesWorked', 'Over18', 'OverTime', 'PercentSalaryHike', 'PerformanceRating', 'RelationshipSatisfaction', 'StandardHours', 'StockOptionLevel', 'TotalWorkingYears', 'TrainingTimesLastYear', 'WorkLifeBalance', 'YearsAtCompany', 'YearsInCurrentRole', 'YearsSinceLastPromotion', 'YearsWithCurrManager']
+
+*********************************************************************************************************************************************************
+
+Missing values in each column:
+ Age                         0
+Attrition                   0
+BusinessTravel              0
+DailyRate                   0
+Department                  0
+DistanceFromHome            0
+Education                   0
+EducationField              0
+EmployeeCount               0
+EmployeeNumber              0
+EnvironmentSatisfaction     0
+Gender                      0
+HourlyRate                  0
+JobInvolvement              0
+JobLevel                    0
+JobRole                     0
+JobSatisfaction             0
+MaritalStatus               0
+MonthlyIncome               0
+MonthlyRate                 0
+NumCompaniesWorked          0
+Over18                      0
+OverTime                    0
+PercentSalaryHike           0
+PerformanceRating           0
+RelationshipSatisfaction    0
+StandardHours               0
+StockOptionLevel            0
+TotalWorkingYears           0
+TrainingTimesLastYear       0
+WorkLifeBalance             0
+YearsAtCompany              0
+YearsInCurrentRole          0
+YearsSinceLastPromotion     0
+YearsWithCurrManager        0
+dtype: int64
+
+*********************************************************************************************************************************************************
+
+Data types:
+ Age                          int64
+Attrition                   object
+BusinessTravel              object
+DailyRate                    int64
+Department                  object
+DistanceFromHome             int64
+Education                    int64
+EducationField              object
+EmployeeCount                int64
+EmployeeNumber               int64
+EnvironmentSatisfaction      int64
+Gender                      object
+HourlyRate                   int64
+JobInvolvement               int64
+JobLevel                     int64
+JobRole                     object
+JobSatisfaction              int64
+MaritalStatus               object
+MonthlyIncome                int64
+MonthlyRate                  int64
+NumCompaniesWorked           int64
+Over18                      object
+OverTime                    object
+PercentSalaryHike            int64
+PerformanceRating            int64
+RelationshipSatisfaction     int64
+StandardHours                int64
+StockOptionLevel             int64
+TotalWorkingYears            int64
+TrainingTimesLastYear        int64
+WorkLifeBalance              int64
+YearsAtCompany               int64
+YearsInCurrentRole           int64
+YearsSinceLastPromotion      int64
+YearsWithCurrManager         int64
+dtype: object
+
+*********************************************************************************************************************************************************
+
+   Age Attrition     BusinessTravel  ...  YearsInCurrentRole YearsSinceLastPromotion  YearsWithCurrManager
+0   41       Yes      Travel_Rarely  ...                   4                       0                     5
+1   49        No  Travel_Frequently  ...                   7                       1                     7
+2   37       Yes      Travel_Rarely  ...                   0                       0                     0
+3   33        No  Travel_Frequently  ...                   7                       3                     0
+4   27        No      Travel_Rarely  ...                   2                       2                     2
+
+[5 rows x 35 columns]
+
+Dataset shape: (1470, 35)
+
+*********************************************************************************************************************************************************
+
+Columns in dataset:
+ ['Age', 'Attrition', 'BusinessTravel', 'DailyRate', 'Department', 'DistanceFromHome', 'Education', 'EducationField', 'EmployeeCount', 'EmployeeNumber', 'EnvironmentSatisfaction', 'Gender', 'HourlyRate', 'JobInvolvement', 'JobLevel', 'JobRole', 'JobSatisfaction', 'MaritalStatus', 'MonthlyIncome', 'MonthlyRate', 'NumCompaniesWorked', 'Over18', 'OverTime', 'PercentSalaryHike', 'PerformanceRating', 'RelationshipSatisfaction', 'StandardHours', 'StockOptionLevel', 'TotalWorkingYears', 'TrainingTimesLastYear', 'WorkLifeBalance', 'YearsAtCompany', 'YearsInCurrentRole', 'YearsSinceLastPromotion', 'YearsWithCurrManager']
+
+*********************************************************************************************************************************************************
+
+Missing values in each column:
+Age                         0
+Attrition                   0
+BusinessTravel              0
+DailyRate                   0
+Department                  0
+DistanceFromHome            0
+Education                   0
+EducationField              0
+EmployeeCount               0
+EmployeeNumber              0
+EnvironmentSatisfaction     0
+Gender                      0
+HourlyRate                  0
+JobInvolvement              0
+JobLevel                    0
+JobRole                     0
+JobSatisfaction             0
+MaritalStatus               0
+MonthlyIncome               0
+MonthlyRate                 0
+NumCompaniesWorked          0
+Over18                      0
+OverTime                    0
+PercentSalaryHike           0
+PerformanceRating           0
+RelationshipSatisfaction    0
+StandardHours               0
+StockOptionLevel            0
+TotalWorkingYears           0
+TrainingTimesLastYear       0
+WorkLifeBalance             0
+YearsAtCompany              0
+YearsInCurrentRole          0
+YearsSinceLastPromotion     0
+YearsWithCurrManager        0
+dtype: int64
+
+*********************************************************************************************************************************************************
+
+Data types:
+Age                          int64
+Attrition                   object
+BusinessTravel              object
+DailyRate                    int64
+Department                  object
+DistanceFromHome             int64
+Education                    int64
+EducationField              object
+EmployeeCount                int64
+EmployeeNumber               int64
+EnvironmentSatisfaction      int64
+Gender                      object
+HourlyRate                   int64
+JobInvolvement               int64
+JobLevel                     int64
+JobRole                     object
+JobSatisfaction              int64
+MaritalStatus               object
+MonthlyIncome                int64
+MonthlyRate                  int64
+NumCompaniesWorked           int64
+Over18                      object
+OverTime                    object
+PercentSalaryHike            int64
+PerformanceRating            int64
+RelationshipSatisfaction     int64
+StandardHours                int64
+StockOptionLevel             int64
+TotalWorkingYears            int64
+TrainingTimesLastYear        int64
+WorkLifeBalance              int64
+YearsAtCompany               int64
+YearsInCurrentRole           int64
+YearsSinceLastPromotion      int64
+YearsWithCurrManager         int64
+dtype: object
+
+*********************************************************************************************************************************************************
+
+Data types after encoding:
+Age                                  int64
+Attrition                            int64
+DailyRate                            int64
+DistanceFromHome                     int64
+Education                            int64
+EnvironmentSatisfaction              int64
+Gender                               int64
+HourlyRate                           int64
+JobInvolvement                       int64
+JobLevel                             int64
+JobSatisfaction                      int64
+MonthlyIncome                        int64
+MonthlyRate                          int64
+NumCompaniesWorked                   int64
+OverTime                             int64
+PercentSalaryHike                    int64
+PerformanceRating                    int64
+RelationshipSatisfaction             int64
+StockOptionLevel                     int64
+TotalWorkingYears                    int64
+TrainingTimesLastYear                int64
+WorkLifeBalance                      int64
+YearsAtCompany                       int64
+YearsInCurrentRole                   int64
+YearsSinceLastPromotion              int64
+YearsWithCurrManager                 int64
+BusinessTravel_Travel_Frequently      bool
+BusinessTravel_Travel_Rarely          bool
+Department_Research & Development     bool
+Department_Sales                      bool
+EducationField_Life Sciences          bool
+EducationField_Marketing              bool
+EducationField_Medical                bool
+EducationField_Other                  bool
+EducationField_Technical Degree       bool
+JobRole_Human Resources               bool
+JobRole_Laboratory Technician         bool
+JobRole_Manager                       bool
+JobRole_Manufacturing Director        bool
+JobRole_Research Director             bool
+JobRole_Research Scientist            bool
+JobRole_Sales Executive               bool
+JobRole_Sales Representative          bool
+MaritalStatus_Married                 bool
+MaritalStatus_Single                  bool
+dtype: object
+
+Shape after encoding: (1470, 45)
+
+*********************************************************************************************************************************************************
+ 
+   Age Attrition     BusinessTravel  ...  YearsInCurrentRole YearsSinceLastPromotion  YearsWithCurrManager
+0   41       Yes      Travel_Rarely  ...                   4                       0                     5
+1   49        No  Travel_Frequently  ...                   7                       1                     7
+2   37       Yes      Travel_Rarely  ...                   0                       0                     0
+3   33        No  Travel_Frequently  ...                   7                       3                     0
+4   27        No      Travel_Rarely  ...                   2                       2                     2
+
+[5 rows x 35 columns]
+
+Dataset shape: (1470, 35)
+
+*********************************************************************************************************************************************************
+
+Columns in dataset:
+ ['Age', 'Attrition', 'BusinessTravel', 'DailyRate', 'Department', 'DistanceFromHome', 'Education', 'EducationField', 'EmployeeCount', 'EmployeeNumber', 'EnvironmentSatisfaction', 'Gender', 'HourlyRate', 'JobInvolvement', 'JobLevel', 'JobRole', 'JobSatisfaction', 'MaritalStatus', 'MonthlyIncome', 'MonthlyRate', 'NumCompaniesWorked', 'Over18', 'OverTime', 'PercentSalaryHike', 'PerformanceRating', 'RelationshipSatisfaction', 'StandardHours', 'StockOptionLevel', 'TotalWorkingYears', 'TrainingTimesLastYear', 'WorkLifeBalance', 'YearsAtCompany', 'YearsInCurrentRole', 'YearsSinceLastPromotion', 'YearsWithCurrManager']
+
+Missing values in each column:
+Age                         0
+Attrition                   0
+BusinessTravel              0
+DailyRate                   0
+Department                  0
+DistanceFromHome            0
+Education                   0
+EducationField              0
+EmployeeCount               0
+EmployeeNumber              0
+EnvironmentSatisfaction     0
+Gender                      0
+HourlyRate                  0
+JobInvolvement              0
+JobLevel                    0
+JobRole                     0
+JobSatisfaction             0
+MaritalStatus               0
+MonthlyIncome               0
+MonthlyRate                 0
+NumCompaniesWorked          0
+Over18                      0
+OverTime                    0
+PercentSalaryHike           0
+PerformanceRating           0
+RelationshipSatisfaction    0
+StandardHours               0
+StockOptionLevel            0
+TotalWorkingYears           0
+TrainingTimesLastYear       0
+WorkLifeBalance             0
+YearsAtCompany              0
+YearsInCurrentRole          0
+YearsSinceLastPromotion     0
+YearsWithCurrManager        0
+dtype: int64
+
+*********************************************************************************************************************************************************
+
+Data types:
+Age                          int64
+Attrition                   object
+BusinessTravel              object
+DailyRate                    int64
+Department                  object
+DistanceFromHome             int64
+Education                    int64
+EducationField              object
+EmployeeCount                int64
+EmployeeNumber               int64
+EnvironmentSatisfaction      int64
+Gender                      object
+HourlyRate                   int64
+JobInvolvement               int64
+JobLevel                     int64
+JobRole                     object
+JobSatisfaction              int64
+MaritalStatus               object
+MonthlyIncome                int64
+MonthlyRate                  int64
+NumCompaniesWorked           int64
+Over18                      object
+OverTime                    object
+PercentSalaryHike            int64
+PerformanceRating            int64
+RelationshipSatisfaction     int64
+StandardHours                int64
+StockOptionLevel             int64
+TotalWorkingYears            int64
+TrainingTimesLastYear        int64
+WorkLifeBalance              int64
+YearsAtCompany               int64
+YearsInCurrentRole           int64
+YearsSinceLastPromotion      int64
+YearsWithCurrManager         int64
+dtype: object
+
+*********************************************************************************************************************************************************
+
+Data types after encoding:
+Age                                  int64
+Attrition                            int64
+DailyRate                            int64
+DistanceFromHome                     int64
+Education                            int64
+EnvironmentSatisfaction              int64
+Gender                               int64
+HourlyRate                           int64
+JobInvolvement                       int64
+JobLevel                             int64
+JobSatisfaction                      int64
+MonthlyIncome                        int64
+MonthlyRate                          int64
+NumCompaniesWorked                   int64
+OverTime                             int64
+PercentSalaryHike                    int64
+PerformanceRating                    int64
+RelationshipSatisfaction             int64
+StockOptionLevel                     int64
+TotalWorkingYears                    int64
+TrainingTimesLastYear                int64
+WorkLifeBalance                      int64
+YearsAtCompany                       int64
+YearsInCurrentRole                   int64
+YearsSinceLastPromotion              int64
+YearsWithCurrManager                 int64
+BusinessTravel_Travel_Frequently      bool
+BusinessTravel_Travel_Rarely          bool
+Department_Research & Development     bool
+Department_Sales                      bool
+EducationField_Life Sciences          bool
+EducationField_Marketing              bool
+EducationField_Medical                bool
+EducationField_Other                  bool
+EducationField_Technical Degree       bool
+JobRole_Human Resources               bool
+JobRole_Laboratory Technician         bool
+JobRole_Manager                       bool
+JobRole_Manufacturing Director        bool
+JobRole_Research Director             bool
+JobRole_Research Scientist            bool
+JobRole_Sales Executive               bool
+JobRole_Sales Representative          bool
+MaritalStatus_Married                 bool
+MaritalStatus_Single                  bool
+dtype: object
+
+*********************************************************************************************************************************************************
+
+Shape after encoding: (1470, 45)
+Test Accuracy: 0.8605
+
+*********************************************************************************************************************************************************
+
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.88      0.96      0.92       247
+           1       0.62      0.34      0.44        47
+
+    accuracy                           0.86       294
+   macro avg       0.75      0.65      0.68       294
+weighted avg       0.84      0.86      0.84       294
+
+*********************************************************************************************************************************************************
+ 
+   Age Attrition     BusinessTravel  ...  YearsInCurrentRole YearsSinceLastPromotion  YearsWithCurrManager
+0   41       Yes      Travel_Rarely  ...                   4                       0                     5
+1   49        No  Travel_Frequently  ...                   7                       1                     7
+2   37       Yes      Travel_Rarely  ...                   0                       0                     0
+3   33        No  Travel_Frequently  ...                   7                       3                     0
+4   27        No      Travel_Rarely  ...                   2                       2                     2
+
+[5 rows x 35 columns]
+
+Dataset shape: (1470, 35)
+
+Columns in dataset:
+ ['Age', 'Attrition', 'BusinessTravel', 'DailyRate', 'Department', 'DistanceFromHome', 'Education', 'EducationField', 'EmployeeCount', 'EmployeeNumber', 'EnvironmentSatisfaction', 'Gender', 'HourlyRate', 'JobInvolvement', 'JobLevel', 'JobRole', 'JobSatisfaction', 'MaritalStatus', 'MonthlyIncome', 'MonthlyRate', 'NumCompaniesWorked', 'Over18', 'OverTime', 'PercentSalaryHike', 'PerformanceRating', 'RelationshipSatisfaction', 'StandardHours', 'StockOptionLevel', 'TotalWorkingYears', 'TrainingTimesLastYear', 'WorkLifeBalance', 'YearsAtCompany', 'YearsInCurrentRole', 'YearsSinceLastPromotion', 'YearsWithCurrManager']
+
+Missing values in each column:
+Age                         0
+Attrition                   0
+BusinessTravel              0
+DailyRate                   0
+Department                  0
+DistanceFromHome            0
+Education                   0
+EducationField              0
+EmployeeCount               0
+EmployeeNumber              0
+EnvironmentSatisfaction     0
+Gender                      0
+HourlyRate                  0
+JobInvolvement              0
+JobLevel                    0
+JobRole                     0
+JobSatisfaction             0
+MaritalStatus               0
+MonthlyIncome               0
+MonthlyRate                 0
+NumCompaniesWorked          0
+Over18                      0
+OverTime                    0
+PercentSalaryHike           0
+PerformanceRating           0
+RelationshipSatisfaction    0
+StandardHours               0
+StockOptionLevel            0
+TotalWorkingYears           0
+TrainingTimesLastYear       0
+WorkLifeBalance             0
+YearsAtCompany              0
+YearsInCurrentRole          0
+YearsSinceLastPromotion     0
+YearsWithCurrManager        0
+dtype: int64
+
+Data types:
+ Age                          int64
+Attrition                   object
+BusinessTravel              object
+DailyRate                    int64
+Department                  object
+DistanceFromHome             int64
+Education                    int64
+EducationField              object
+EmployeeCount                int64
+EmployeeNumber               int64
+EnvironmentSatisfaction      int64
+Gender                      object
+HourlyRate                   int64
+JobInvolvement               int64
+JobLevel                     int64
+JobRole                     object
+JobSatisfaction              int64
+MaritalStatus               object
+MonthlyIncome                int64
+MonthlyRate                  int64
+NumCompaniesWorked           int64
+Over18                      object
+OverTime                    object
+PercentSalaryHike            int64
+PerformanceRating            int64
+RelationshipSatisfaction     int64
+StandardHours                int64
+StockOptionLevel             int64
+TotalWorkingYears            int64
+TrainingTimesLastYear        int64
+WorkLifeBalance              int64
+YearsAtCompany               int64
+YearsInCurrentRole           int64
+YearsSinceLastPromotion      int64
+YearsWithCurrManager         int64
+dtype: object
+
+Data types after encoding:
+Age                                  int64
+Attrition                            int64
+DailyRate                            int64
+DistanceFromHome                     int64
+Education                            int64
+EnvironmentSatisfaction              int64
+Gender                               int64
+HourlyRate                           int64
+JobInvolvement                       int64
+JobLevel                             int64
+JobSatisfaction                      int64
+MonthlyIncome                        int64
+MonthlyRate                          int64
+NumCompaniesWorked                   int64
+OverTime                             int64
+PercentSalaryHike                    int64
+PerformanceRating                    int64
+RelationshipSatisfaction             int64
+StockOptionLevel                     int64
+TotalWorkingYears                    int64
+TrainingTimesLastYear                int64
+WorkLifeBalance                      int64
+YearsAtCompany                       int64
+YearsInCurrentRole                   int64
+YearsSinceLastPromotion              int64
+YearsWithCurrManager                 int64
+BusinessTravel_Travel_Frequently      bool
+BusinessTravel_Travel_Rarely          bool
+Department_Research & Development     bool
+Department_Sales                      bool
+EducationField_Life Sciences          bool
+EducationField_Marketing              bool
+EducationField_Medical                bool
+EducationField_Other                  bool
+EducationField_Technical Degree       bool
+JobRole_Human Resources               bool
+JobRole_Laboratory Technician         bool
+JobRole_Manager                       bool
+JobRole_Manufacturing Director        bool
+JobRole_Research Director             bool
+JobRole_Research Scientist            bool
+JobRole_Sales Executive               bool
+JobRole_Sales Representative          bool
+MaritalStatus_Married                 bool
+MaritalStatus_Single                  bool
+dtype: object
+
+Shape after encoding: (1470, 45)
+Test Accuracy: 0.8605
+
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.88      0.96      0.92       247
+           1       0.62      0.34      0.44        47
+
+    accuracy                           0.86       294
+   macro avg       0.75      0.65      0.68       294
+weighted avg       0.84      0.86      0.84       294
+
+Test Accuracy: 0.8605
+
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.88      0.96      0.92       247
+           1       0.62      0.34      0.44        47
+
+    accuracy                           0.86       294
+   macro avg       0.75      0.65      0.68       294
+weighted avg       0.84      0.86      0.84       294
+
+*********************************************************************************************************************************************************
+
+   Age Attrition     BusinessTravel  ...  YearsInCurrentRole YearsSinceLastPromotion  YearsWithCurrManager
+0   41       Yes      Travel_Rarely  ...                   4                       0                     5
+1   49        No  Travel_Frequently  ...                   7                       1                     7
+2   37       Yes      Travel_Rarely  ...                   0                       0                     0
+3   33        No  Travel_Frequently  ...                   7                       3                     0
+4   27        No      Travel_Rarely  ...                   2                       2                     2
+
+[5 rows x 35 columns]
+
+Dataset shape: (1470, 35)
+
+Columns in dataset:
+ ['Age', 'Attrition', 'BusinessTravel', 'DailyRate', 'Department', 'DistanceFromHome', 'Education', 'EducationField', 'EmployeeCount', 'EmployeeNumber', 'EnvironmentSatisfaction', 'Gender', 'HourlyRate', 'JobInvolvement', 'JobLevel', 'JobRole', 'JobSatisfaction', 'MaritalStatus', 'MonthlyIncome', 'MonthlyRate', 'NumCompaniesWorked', 'Over18', 'OverTime', 'PercentSalaryHike', 'PerformanceRating', 'RelationshipSatisfaction', 'StandardHours', 'StockOptionLevel', 'TotalWorkingYears', 'TrainingTimesLastYear', 'WorkLifeBalance', 'YearsAtCompany', 'YearsInCurrentRole', 'YearsSinceLastPromotion', 'YearsWithCurrManager']
+
+Missing values in each column:
+Age                         0
+Attrition                   0
+BusinessTravel              0
+DailyRate                   0
+Department                  0
+DistanceFromHome            0
+Education                   0
+EducationField              0
+EmployeeCount               0
+EmployeeNumber              0
+EnvironmentSatisfaction     0
+Gender                      0
+HourlyRate                  0
+JobInvolvement              0
+JobLevel                    0
+JobRole                     0
+JobSatisfaction             0
+MaritalStatus               0
+MonthlyIncome               0
+MonthlyRate                 0
+NumCompaniesWorked          0
+Over18                      0
+OverTime                    0
+PercentSalaryHike           0
+PerformanceRating           0
+RelationshipSatisfaction    0
+StandardHours               0
+StockOptionLevel            0
+TotalWorkingYears           0
+TrainingTimesLastYear       0
+WorkLifeBalance             0
+YearsAtCompany              0
+YearsInCurrentRole          0
+YearsSinceLastPromotion     0
+YearsWithCurrManager        0
+dtype: int64
+
+Data types:
+Age                          int64
+Attrition                   object
+BusinessTravel              object
+DailyRate                    int64
+Department                  object
+DistanceFromHome             int64
+Education                    int64
+EducationField              object
+EmployeeCount                int64
+EmployeeNumber               int64
+EnvironmentSatisfaction      int64
+Gender                      object
+HourlyRate                   int64
+JobInvolvement               int64
+JobLevel                     int64
+JobRole                     object
+JobSatisfaction              int64
+MaritalStatus               object
+MonthlyIncome                int64
+MonthlyRate                  int64
+NumCompaniesWorked           int64
+Over18                      object
+OverTime                    object
+PercentSalaryHike            int64
+PerformanceRating            int64
+RelationshipSatisfaction     int64
+StandardHours                int64
+StockOptionLevel             int64
+TotalWorkingYears            int64
+TrainingTimesLastYear        int64
+WorkLifeBalance              int64
+YearsAtCompany               int64
+YearsInCurrentRole           int64
+YearsSinceLastPromotion      int64
+YearsWithCurrManager         int64
+dtype: object
+
+Data types after encoding:
+Age                                  int64
+Attrition                            int64
+DailyRate                            int64
+DistanceFromHome                     int64
+Education                            int64
+EnvironmentSatisfaction              int64
+Gender                               int64
+HourlyRate                           int64
+JobInvolvement                       int64
+JobLevel                             int64
+JobSatisfaction                      int64
+MonthlyIncome                        int64
+MonthlyRate                          int64
+NumCompaniesWorked                   int64
+OverTime                             int64
+PercentSalaryHike                    int64
+PerformanceRating                    int64
+RelationshipSatisfaction             int64
+StockOptionLevel                     int64
+TotalWorkingYears                    int64
+TrainingTimesLastYear                int64
+WorkLifeBalance                      int64
+YearsAtCompany                       int64
+YearsInCurrentRole                   int64
+YearsSinceLastPromotion              int64
+YearsWithCurrManager                 int64
+BusinessTravel_Travel_Frequently      bool
+BusinessTravel_Travel_Rarely          bool
+Department_Research & Development     bool
+Department_Sales                      bool
+EducationField_Life Sciences          bool
+EducationField_Marketing              bool
+EducationField_Medical                bool
+EducationField_Other                  bool
+EducationField_Technical Degree       bool
+JobRole_Human Resources               bool
+JobRole_Laboratory Technician         bool
+JobRole_Manager                       bool
+JobRole_Manufacturing Director        bool
+JobRole_Research Director             bool
+JobRole_Research Scientist            bool
+JobRole_Sales Executive               bool
+JobRole_Sales Representative          bool
+MaritalStatus_Married                 bool
+MaritalStatus_Single                  bool
+dtype: object
+
+Shape after encoding: (1470, 45)
+Test Accuracy: 0.8605
+
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.88      0.96      0.92       247
+           1       0.62      0.34      0.44        47
+
+    accuracy                           0.86       294
+   macro avg       0.75      0.65      0.68       294
+weighted avg       0.84      0.86      0.84       294
+
+Test Accuracy: 0.8605
+
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.88      0.96      0.92       247
+           1       0.62      0.34      0.44        47
+
+    accuracy                           0.86       294
+   macro avg       0.75      0.65      0.68       294
+weighted avg       0.84      0.86      0.84       294
+
+Top 10 most important features:
+                             Feature  Coefficient  AbsCoefficient
+13                          OverTime     0.864567        0.864567
+25  BusinessTravel_Travel_Frequently     0.751247        0.751247
+35     JobRole_Laboratory Technician     0.714756        0.714756
+18                 TotalWorkingYears    -0.555603        0.555603
+23           YearsSinceLastPromotion     0.528704        0.528704
+12                NumCompaniesWorked     0.487609        0.487609
+4            EnvironmentSatisfaction    -0.481659        0.481659
+41      JobRole_Sales Representative     0.481459        0.481459
+26      BusinessTravel_Travel_Rarely     0.450070        0.450070
+9                    JobSatisfaction    -0.419417        0.419417
+PS C:\Users\Rajesh_Meena\OneDrive\Desktop\prjfile\HR_Attrition_Project> ^C
+PS C:\Users\Rajesh_Meena\OneDrive\Desktop\prjfile\HR_Attrition_Project> 
+PS C:\Users\Rajesh_Meena\OneDrive\Desktop\prjfile\HR_Attrition_Project>  c:; cd 'c:\Users\Rajesh_Meena\OneDrive\Desktop\prjfile\HR_Attrition_Project'; & 'c:\Users\Rajesh_Meena\AppData\Local\Programs\Python\Python313\python.exe' 'c:\Users\Rajesh_Meena\.vscode\extensions\ms-python.debugpy-2025.10.0-win32-x64\bundled\libs\debugpy\launcher' '52870' '--' 'C:\Users\Rajesh_Meena\OneDrive\Desktop\prjfile\HR_Attrition_Project\hr_attrition_project.py' 
+   Age Attrition     BusinessTravel  ...  YearsInCurrentRole YearsSinceLastPromotion  YearsWithCurrManager
+0   41       Yes      Travel_Rarely  ...                   4                       0                     5
+1   49        No  Travel_Frequently  ...                   7                       1                     7
+2   37       Yes      Travel_Rarely  ...                   0                       0                     0
+3   33        No  Travel_Frequently  ...                   7                       3                     0
+4   27        No      Travel_Rarely  ...                   2                       2                     2
+
+[5 rows x 35 columns]
+
+Dataset shape: (1470, 35)
+
+Columns in dataset:
+ ['Age', 'Attrition', 'BusinessTravel', 'DailyRate', 'Department', 'DistanceFromHome', 'Education', 'EducationField', 'EmployeeCount', 'EmployeeNumber', 'EnvironmentSatisfaction', 'Gender', 'HourlyRate', 'JobInvolvement', 'JobLevel', 'JobRole', 'JobSatisfaction', 'MaritalStatus', 'MonthlyIncome', 'MonthlyRate', 'NumCompaniesWorked', 'Over18', 'OverTime', 'PercentSalaryHike', 'PerformanceRating', 'RelationshipSatisfaction', 'StandardHours', 'StockOptionLevel', 'TotalWorkingYears', 'TrainingTimesLastYear', 'WorkLifeBalance', 'YearsAtCompany', 'YearsInCurrentRole', 'YearsSinceLastPromotion', 'YearsWithCurrManager']
+
+Missing values in each column:
+ Age                         0
+Attrition                   0
+BusinessTravel              0
+DailyRate                   0
+Department                  0
+DistanceFromHome            0
+Education                   0
+EducationField              0
+EmployeeCount               0
+EmployeeNumber              0
+EnvironmentSatisfaction     0
+Gender                      0
+HourlyRate                  0
+JobInvolvement              0
+JobLevel                    0
+JobRole                     0
+JobSatisfaction             0
+MaritalStatus               0
+MonthlyIncome               0
+MonthlyRate                 0
+NumCompaniesWorked          0
+Over18                      0
+OverTime                    0
+PercentSalaryHike           0
+PerformanceRating           0
+RelationshipSatisfaction    0
+StandardHours               0
+StockOptionLevel            0
+TotalWorkingYears           0
+TrainingTimesLastYear       0
+WorkLifeBalance             0
+YearsAtCompany              0
+YearsInCurrentRole          0
+YearsSinceLastPromotion     0
+YearsWithCurrManager        0
+dtype: int64
+
+Data types:
+ Age                          int64
+Attrition                   object
+BusinessTravel              object
+DailyRate                    int64
+Department                  object
+DistanceFromHome             int64
+Education                    int64
+EducationField              object
+EmployeeCount                int64
+EmployeeNumber               int64
+EnvironmentSatisfaction      int64
+Gender                      object
+HourlyRate                   int64
+JobInvolvement               int64
+JobLevel                     int64
+JobRole                     object
+JobSatisfaction              int64
+MaritalStatus               object
+MonthlyIncome                int64
+MonthlyRate                  int64
+NumCompaniesWorked           int64
+Over18                      object
+OverTime                    object
+PercentSalaryHike            int64
+PerformanceRating            int64
+RelationshipSatisfaction     int64
+StandardHours                int64
+StockOptionLevel             int64
+TotalWorkingYears            int64
+TrainingTimesLastYear        int64
+WorkLifeBalance              int64
+YearsAtCompany               int64
+YearsInCurrentRole           int64
+YearsSinceLastPromotion      int64
+YearsWithCurrManager         int64
+dtype: object
+
+Data types after encoding:
+Age                                  int64
+Attrition                            int64
+DailyRate                            int64
+DistanceFromHome                     int64
+Education                            int64
+EnvironmentSatisfaction              int64
+Gender                               int64
+HourlyRate                           int64
+JobInvolvement                       int64
+JobLevel                             int64
+JobSatisfaction                      int64
+MonthlyIncome                        int64
+MonthlyRate                          int64
+NumCompaniesWorked                   int64
+OverTime                             int64
+PercentSalaryHike                    int64
+PerformanceRating                    int64
+RelationshipSatisfaction             int64
+StockOptionLevel                     int64
+TotalWorkingYears                    int64
+TrainingTimesLastYear                int64
+WorkLifeBalance                      int64
+YearsAtCompany                       int64
+YearsInCurrentRole                   int64
+YearsSinceLastPromotion              int64
+YearsWithCurrManager                 int64
+BusinessTravel_Travel_Frequently      bool
+BusinessTravel_Travel_Rarely          bool
+Department_Research & Development     bool
+Department_Sales                      bool
+EducationField_Life Sciences          bool
+EducationField_Marketing              bool
+EducationField_Medical                bool
+EducationField_Other                  bool
+EducationField_Technical Degree       bool
+JobRole_Human Resources               bool
+JobRole_Laboratory Technician         bool
+JobRole_Manager                       bool
+JobRole_Manufacturing Director        bool
+JobRole_Research Director             bool
+JobRole_Research Scientist            bool
+JobRole_Sales Executive               bool
+JobRole_Sales Representative          bool
+MaritalStatus_Married                 bool
+MaritalStatus_Single                  bool
+dtype: object
+
+Shape after encoding: (1470, 45)
+Test Accuracy: 0.8605
+
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.88      0.96      0.92       247
+           1       0.62      0.34      0.44        47
+
+    accuracy                           0.86       294
+   macro avg       0.75      0.65      0.68       294
+weighted avg       0.84      0.86      0.84       294
+
+Test Accuracy: 0.8605
+
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.88      0.96      0.92       247
+           1       0.62      0.34      0.44        47
+
+    accuracy                           0.86       294
+   macro avg       0.75      0.65      0.68       294
+weighted avg       0.84      0.86      0.84       294
+
+Top 10 most important features:
+                             Feature  Coefficient  AbsCoefficient
+13                          OverTime     0.864567        0.864567
+25  BusinessTravel_Travel_Frequently     0.751247        0.751247
+35     JobRole_Laboratory Technician     0.714756        0.714756
+18                 TotalWorkingYears    -0.555603        0.555603
+23           YearsSinceLastPromotion     0.528704        0.528704
+12                NumCompaniesWorked     0.487609        0.487609
+4            EnvironmentSatisfaction    -0.481659        0.481659
+41      JobRole_Sales Representative     0.481459        0.481459
+26      BusinessTravel_Travel_Rarely     0.450070        0.450070
+9                    JobSatisfaction    -0.419417        0.419417
+
+**************************************************************************** END ************************************************************************
